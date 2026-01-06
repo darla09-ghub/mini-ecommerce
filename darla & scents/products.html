@@ -1,65 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products - Darla & Scents</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<title>Darla & Scents | Products</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Darla & Scents</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div>Cart: <span id="cart-count">0</span></div>
-    <button id="theme-toggle">Toggle Theme</button>
-  </header>
-
-  <main>
-    <section class="products-grid">
-      <article class="product">
-        <img src="images/perfume1.jpg" alt="Morning Blossom">
-        <h3>Morning Blossom</h3>
-        <p>Floral | Rose, Jasmine, Lily</p>
-        <p>KSh 2,500</p>
-        <button class="add-cart">Add to Cart</button>
-      </article>
-
-      <article class="product">
-        <img src="images/perfume2.jpg" alt="Mystic Woods">
-        <h3>Mystic Woods</h3>
-        <p>Woody | Sandalwood, Cedar, Amber</p>
-        <p>KSh 2,800</p>
-        <button class="add-cart">Add to Cart</button>
-      </article>
-
-      <article class="product">
-        <img src="images/perfume3.jpg" alt="Citrus Breeze">
-        <h3>Citrus Breeze</h3>
-        <p>Fresh | Lemon, Orange, Bergamot</p>
-        <p>KSh 2,200</p>
-        <button class="add-cart">Add to Cart</button>
-      </article>
-
-      <article class="product">
-        <img src="images/perfume4.jpg" alt="Midnight Spice">
-        <h3>Midnight Spice</h3>
-        <p>Oriental | Vanilla, Cinnamon, Musk</p>
-        <p>KSh 3,000</p>
-        <button class="add-cart">Add to Cart</button>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Darla & Scents. All rights reserved.</p>
-  </footer>
-
-  <script src="js/script.js"></script>
+<header><h1>Our Perfumes</h1></header>
+<main class="products">
+<div class="product">
+<img src="images/floral_bliss.png">
+<h3>Floral Bliss</h3>
+<p>Fresh floral scent</p>
+<p>KES 2,500</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+<div class="product">
+<img src="images/ocean_mist.png">
+<h3>Ocean Mist</h3>
+<p>Cool ocean fragrance</p>
+<p>KES 2,800</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+<div class="product">
+<img src="images/amber_night.png">
+<h3>Amber Night</h3>
+<p>Warm amber tones</p>
+<p>KES 3,000</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
-N
